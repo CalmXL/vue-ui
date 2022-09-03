@@ -1,5 +1,5 @@
 <script setup>
-  import { ref, watch } from 'vue';
+  import { ref } from 'vue';
   import carData from './data/carousel';
 
   let dir = ref('next');

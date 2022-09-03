@@ -8,3 +8,9 @@
   5. hasDot="true" 是否显示指示原点
   6. hasDirector="true" 显示方向按键
   7. dotBgColor="hotpink" 圆点背景颜色
+
+## Selector 分析
+
+  1. input 组件 - placeholder icon input
+  2. menu 组件 - list listItem data
+  3. NoDataTip提示组件  
