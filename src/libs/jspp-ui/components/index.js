@@ -3,6 +3,7 @@ import CarItem from './Carousel/Item';
 import TreeMenu from './TreeMenu';
 import MenuItem from './TreeMenu/MenuItem';
 import Selector from './Selector';
+import DataPager from './DataPager';
 
 let JsppUI = {};
 
@@ -12,6 +13,7 @@ JsppUI.install = function (Vue) {
   Vue.component('TreeMenu', TreeMenu);
   Vue.component('MenuItem', MenuItem);
   Vue.component('Selector', Selector);
+  Vue.component('DataPager', DataPager);
 }
 
 export default JsppUI;

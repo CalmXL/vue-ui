@@ -14,3 +14,11 @@
   1. input 组件 - placeholder icon input
   2. menu 组件 - list listItem data
   3. NoDataTip提示组件  
+
+## 分页组件
+
+  1. pageNum 
+    上下页 + btn点击
+
+  2. pageSkip
+    跳转页面
