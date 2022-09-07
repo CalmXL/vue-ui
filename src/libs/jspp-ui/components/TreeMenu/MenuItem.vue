@@ -1,10 +1,14 @@
 <script setup>
-
+  const prop = defineProps({
+    item: Object
+  });
 </script>
 
 <template>
-  <div class="menu-item">
-    <slot></slot>
+  <div 
+    class="menu-item"
+  >
+    {{ item.title }}
   </div>
 </template>
 
@@ -14,4 +18,4 @@
     text-align: center;
     line-height: 50px;
   }
-</style>
+</style>       
