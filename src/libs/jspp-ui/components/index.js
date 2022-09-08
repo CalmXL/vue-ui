@@ -9,16 +9,32 @@ import Selector from './Selector';
 
 import DataPager from './DataPager';
 
+const components = {
+  Carousel,
+  CarItem,
+  TreeMenu,
+  MenuItem,
+  SubMenu,
+  Selector,
+  DataPager
+}
+
 let JsppUI = {};
 
+// 插件形式
 JsppUI.install = function (Vue) {
-  Vue.component('Carousel', Carousel);
-  Vue.component('CarItem', CarItem);
-  Vue.component('TreeMenu', TreeMenu);
-  Vue.component('MenuItem', MenuItem);
-  Vue.component('SubMenu', SubMenu);
-  Vue.component('Selector', Selector);
-  Vue.component('DataPager', DataPager);
+
+  for (let comp in components) {
+    Vue.component(comp, components[comp]);
+  }
+
+  // Vue.component('Carousel', Carousel);
+  // Vue.component('CarItem', CarItem);
+  // Vue.component('TreeMenu', TreeMenu);
+  // Vue.component('MenuItem', MenuItem);
+  // Vue.component('SubMenu', SubMenu);
+  // Vue.component('Selector', Selector);
+  // Vue.component('DataPager', DataPager);
   
 }
 

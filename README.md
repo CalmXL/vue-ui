@@ -22,3 +22,12 @@
 
   2. pageSkip
     跳转页面
+
+## Transfer 
+
+1. 数据隔离
+  1. leftListData 
+  2. rightListData
+  3. checkedData: left, right 用于存储选中的数据
+
+2. hooks思想抽离组件中的逻辑
