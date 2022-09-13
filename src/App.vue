@@ -29,7 +29,12 @@
       contentTextColor="#333"
     /> -->
 
-    <transfer :data="transferData"></transfer>
+    <!-- <transfer :data="transferData"></transfer> -->
+
+    <stars
+      :num="1.6"
+      :size="20"
+    ></stars>
   </div>
 </template>
 

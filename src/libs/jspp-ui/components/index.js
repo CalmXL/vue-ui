@@ -9,6 +9,8 @@ import Selector from './Selector';
 
 import DataPager from './DataPager';
 
+import Stars from './Stars';
+
 const components = {
   Carousel,
   CarItem,
@@ -16,7 +18,8 @@ const components = {
   MenuItem,
   SubMenu,
   Selector,
-  DataPager
+  DataPager,
+  Stars
 }
 
 let JsppUI = {};

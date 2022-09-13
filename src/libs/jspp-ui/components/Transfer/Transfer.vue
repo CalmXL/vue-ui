@@ -52,7 +52,10 @@
 </script>
 
 <template>
-
+  <!-- 
+    dragover: 当元素或选中的文本被拖放到一个可释放目标时触发
+    drop: 当元素或选中的文本在可释放目标上被释放时触发
+   -->
   <div class="transfer-wrap">
     <select-transfer
       :data="options"

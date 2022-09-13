@@ -23,11 +23,15 @@
 </script>
 
 <template>
+  <!-- 
+    draggable: 用于设置元素是否可以拖拽
+    dragstart: 用户开始拖拽一个元素或选中文本时触发
+   -->
   <div 
     v-for="item of listData"
     :key="item.id"
     :class="['list-item', item.disabled ? 'disabled' : '']"
-    :draggable="!item.disabled"
+    :draggable="!item.disabled" 
     @dragstart="dragItem(item)"
   >
     <input 
